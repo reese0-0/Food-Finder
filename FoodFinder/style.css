@@ -1,0 +1,57 @@
+h1 {
+  font-family: arial;
+  color: #d6a99d;
+  text-align: center;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  overflow: hidden;
+  background-color: #fff5f2;
+}
+
+.top-nav input[type="text"] {
+  padding: 10px;
+  border: solid gray 1px;
+  margin-top: 8px;
+  font-size: 17px;
+  text-align: center;
+  line-height: normal;
+  width: 500px;
+}
+
+.top-nav input[type="text"]::placeholder {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 50px;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 
+- pa monospace ng titles ng food
+ */
